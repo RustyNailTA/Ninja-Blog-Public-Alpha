@@ -10,7 +10,7 @@ function hideDropdown() {
 };
 
 function tagsSplitter(tagsString){
-    var tags = tagsString.split(/[ ,]/).filter(Boolean);
+    var tags = tagsString.split(/[ ,<>\(\)\\\/!.'"]/).filter(Boolean);
     return tags;
 }
 
