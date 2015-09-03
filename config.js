@@ -1,7 +1,7 @@
 System.config({
 	transpiler: "babel",
 	map: {
-		babel: "lib/browser.min.js",
+		babel: "lib/babel-core/browser.js",
 	    "babel-runtime": "lib/babel-runtime",
 	    "core-js": "lib/core-js",
 		jquery: 'lib/jquery.min.js',
