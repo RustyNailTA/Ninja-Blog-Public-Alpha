@@ -1,4 +1,4 @@
-System.config({
+﻿System.config({
 	transpiler: "babel",
 	map: {
 		babel: "lib/babel-core/browser.js",
